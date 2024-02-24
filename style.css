@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    background-color: #FAFAF9;
+}
+.reviewers-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Sora", sans-serif;
+}
+.review-img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.heading-text{
+    font-size: 2.25rem;
+    color: #18181b;
+    margin-bottom: 25px;
+
+}
+.heading-paragraph{
+    color: #52525A;
+    font-size: 1.25rem;
+    margin-top: 7px;
+}
+.main-checklist{
+    margin-top: 40px;
+}
+.checklist-section{
+    display: flex;
+    align-items: center;
+    color: #52525A;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+.checklist-section img{
+    margin-right: 10px;
+}
