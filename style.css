@@ -16,8 +16,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.reviewers-section{
-}
 .review-img{
     height: 35px;
     width: 35px;
@@ -61,6 +59,7 @@ body{
     /* border: 2px solid blue; */
     display: flex;
     justify-content: end;
+    
 }
 .img-section{
     display: flex;
@@ -87,6 +86,7 @@ body{
     padding-left: 2rem;
     padding-right: 4.5rem;
     border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .card-container-2{
     display: flex;
@@ -99,12 +99,11 @@ body{
 @media screen and (max-width: 576px) {
     .main-section{
         flex-direction: column;
-        width: 100%;
+        width: auto;
         padding: 1rem;
     }
     .reviewers-section-1{
         margin-bottom: 1rem;
-        border: 1px solid teal;
     }
     .reviewers-section-2{
         width: 100%;
