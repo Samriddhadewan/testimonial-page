@@ -92,3 +92,24 @@ body{
     display: flex;
     justify-content: start;
 }
+
+
+/* for responsivness  */
+
+@media screen and (max-width: 576px) {
+    .main-section{
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+    .reviewers-section-1{
+        margin-bottom: 1rem;
+        border: 1px solid teal;
+    }
+    .reviewers-section-2{
+        width: 100%;
+    }
+    .card-container-1, .card-container-2{
+        width: 100%;
+    }
+}
