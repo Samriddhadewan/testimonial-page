@@ -2,16 +2,25 @@
     padding: 0px;
     margin: 0px;
     box-sizing: 0px;
+}
+body{
     background-color: #FAFAF9;
 }
-.reviewers-section{
+.main-section{
     max-width: 1200px;
     margin: 0 auto;
+    height: 100vh;
+    /* border: 1px solid rebeccapurple; */
     font-family: "Sora", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewers-section{
 }
 .review-img{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     padding: 10px;
     background-color: #F5C044;
     border-radius: 50%;
@@ -40,4 +49,46 @@
 }
 .checklist-section img{
     margin-right: 10px;
+}
+.reviewers-section-2{
+    /* border: 3px solid salmon; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-container-1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: end;
+}
+.img-section{
+    display: flex;
+    align-items: center;
+}
+.logos{
+    width: 120px;
+    margin-right: 20px;
+}
+.Reviewer-name{
+    color: #18181b;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.reviewer-des{
+    color: #52525A;
+    font-size: 1rem;
+}
+.reviewer-card{
+    background-color:  #ffffff;
+    /* border: 1px solid tomato; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 4.5rem;
+    border-radius: 10px;
+}
+.card-container-2{
+    display: flex;
+    justify-content: start;
 }
